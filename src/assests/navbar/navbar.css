@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+
+    backdrop-filter: blur(10px);
+    transition: all 1.0s ease-in-out;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#toggle-btn>img {
+    width: 40px;
+    height: 40px;
+}
+
+#toggle-btn {
+    cursor: pointer;
+    background: none; 
+    border: none;
+    z-index: 10;
+    transition: all 1.0s ease-in-out;
+}
+
+#toggle-btn:focus {
+    outline: none;
+}
+
+.nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+  
+.nav-links {
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.nav-links > li > a {
+    font-size: 25px;
+    background: none;
+    transition: all 1.0s ease-in-out;
+}
+
+#toggle-btn:active {
+    transform: scale(0.9);
+}

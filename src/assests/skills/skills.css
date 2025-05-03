@@ -1,0 +1,64 @@
+
+.skillCard {
+    height: 100vh;
+    margin: 0 10rem;
+    padding: 0 1rem;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#skills > p {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill {
+    max-width: fit-content;
+    min-width: 400px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border: 2px solid;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+  
+  
+.skill > h4 {
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill > .img-container > img {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.skill > .img-container > img:hover {
+    transform: scale(1.1) translateY(-5px);
+}

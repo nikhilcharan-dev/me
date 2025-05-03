@@ -1,0 +1,44 @@
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: fit-content;
+    min-width: 400px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+  
+  
+.skill-card > h3 {
+    margin: 0.5rem 0;
+    margin-bottom: 5px;
+}
+  
+.skill-card > p {
+    margin: 0 7vh;
+    font-size: 1rem;
+}
+
+.skill-card > div > img {
+    height: 30px;
+    width: 30px;
+    text-align: right;
+    margin: 0 1rem;
+}
+
+.skill-card > div {
+    display: flex;
+}
+
+.skill-card > div > p {
+    margin: 0 1rem;
+    font-size: 1rem;
+}

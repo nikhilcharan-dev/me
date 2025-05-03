@@ -1,0 +1,36 @@
+
+body.light-mode {
+    transition: background-color 1.0s ease-in-out, color 1.0s;
+    background-color: white;
+    color: black;
+}
+
+body.light-mode a {
+    transition: background-color 1.0s ease-in-out, color 1.0s;
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    transition: background-color 1.0s ease-in-out, color 1.0s;
+    background-color: black;
+    color: white;
+}
+
+body.dark-mode a {
+    transition: background-color 1.0s ease-in-out, color 1.0s;
+    background-color: black;
+    color: white;
+}
+
+/* For modern browsers */
+.hide-scrollbar {
+    overflow: auto;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari */
+  }
+  

@@ -1,0 +1,136 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    padding-top: 20vh;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    border: 2px solid;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1.0s ease-in-out;
+}
+
+.details img {
+    height: 40px;
+    width: 40px;
+    z-index: 1000;
+    transition: transform 1.0s ease-in-out;
+}
+
+.details:hover {
+    transform: scale(1.1);
+}
+
+
+.details img:hover {
+    transform: translateY(-6px);
+}
+
+.details > h2 > a {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.details > a {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact > hr {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+video {
+    height: 66px;
+    width: 66px;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.footer > h4 {
+    font-weight: 200;
+    padding-top: 10px;
+}
+
+.contact-info > p {
+    font-size: small;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info > p > a {
+    font-size: small;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.contact-info > p > a:hover {
+    font-size: small;
+    font-weight: 1000;
+    text-decoration: none;
+    transition: all 1.0s ease-in-out;
+}
+
+
+
+
+.social-media  {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.social-media > a > img {
+    height: 20px;
+    width: 20px;
+    transition: transform 1.0s ease-in-out;
+}
+
+.social-media > a {
+    text-decoration: none;
+    display: inline-block;
+    z-index: 10;
+}
+
+.social-media > a:hover > img {
+    transform: scale(1.1);
+}
+
+.contact > img {
+    height: 40px;
+    width: 40px;
+}
+
+.details > h2 > a{
+    transition: all 1.0s ease-in-out;
+}

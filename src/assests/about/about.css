@@ -1,0 +1,44 @@
+#about > p {
+    font-size: 1.25rem;
+    font-weight: default;
+}
+
+.about-container {
+    padding-top: 10vh;
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0 10rem;
+    padding-top: 12.5vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+#about>h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 0.6rem;
+}
+
+#about>:nth-child(2) {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-container > div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
