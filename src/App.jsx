@@ -11,8 +11,8 @@ import Guide from './assests/guide/guide.jsx';
 function App() {
   return (
     <Theme>
-      <Background/>
-      <Nav/>
+      <Background />
+      <Nav />
         <Home />
         <About />
         <Skills />

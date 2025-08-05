@@ -22,7 +22,7 @@ function Guide() {
             </button>
         </>
     );
-};
+}
 
 
 export default Guide;

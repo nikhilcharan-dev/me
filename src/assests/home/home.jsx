@@ -27,7 +27,7 @@ function Home() {
                 <a href='https://linkedin.com/in/shadow01' target='_blank' rel='noopener noreferrer'>
                     <img src={theme === 'dark' ? linkedinDrk : linkedinLit} alt='linkedin'/>
                 </a>
-                <a href='https://www.instagram.com/lazy.perfectionist__/#' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.instagram.com/_.icarus___/' target='_blank' rel='noopener noreferrer'>
                     <img src={theme === 'dark' ? instaDrk : instaLit} alt='instagram'/>
                 </a>
             </div>
@@ -36,6 +36,6 @@ function Home() {
             </div>
         </section>
     );
-};
+}
 
 export default Home;

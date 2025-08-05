@@ -10,7 +10,7 @@ function Nikhil() {
             <div className='name'>Nikhil Charan Gollapalli</div>
         </>
     );
-};
+}
 
 function Navbar() {
     
@@ -26,7 +26,7 @@ function Navbar() {
     }, [theme]);
 
     return (
-        <nav>
+        <nav className={`navbar-${theme}`}>
             <Nikhil />
             <ul className="nav-links">
                 <li><a href="#about">About</a></li>
@@ -41,6 +41,6 @@ function Navbar() {
             </ul>
         </nav>
     );
-};
+}
 
 export default Navbar;

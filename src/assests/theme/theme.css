@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
 
 body.light-mode {
     transition: background-color 1.0s ease-in-out, color 1.0s;
@@ -22,15 +38,3 @@ body.dark-mode a {
     background-color: black;
     color: white;
 }
-
-/* For modern browsers */
-.hide-scrollbar {
-    overflow: auto;
-    scrollbar-width: none;  /* Firefox */
-    -ms-overflow-style: none;  /* IE 10+ */
-  }
-  
-  .hide-scrollbar::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari */
-  }
-  
