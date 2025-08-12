@@ -13,18 +13,14 @@ const Background = () => {
     const star = document.createElement("div");
     star.classList.add(isAsteroid ? "asteroid" : "star");
 
-    star.style.backgroundColor = isAsteroid
-      ? theme === "dark"
-        ? "white"
-        : "black"
-      : "gray";
+    star.style.backgroundColor = theme === "dark" ? "white" : "black";
     star.style.position = "absolute";
     star.style.left = `${getRandomNumber(0, 100)}vw`;
     star.style.bottom = `${getRandomNumber(0, 100)}vh`;
     const size = isAsteroid ? getRandomNumber(3, 5) : getRandomNumber(1, 3);
     star.style.width = `${size}px`;
     star.style.height = `${size}px`;
-    star.style.animation = `move ${getRandomNumber(5, 15)}s linear infinite`;
+    star.style.animation = `move ${getRandomNumber(10, 15)}s linear infinite`;
 
     starsContainerRef.current?.appendChild(star);
   }, [theme]);

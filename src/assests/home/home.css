@@ -39,29 +39,14 @@
     border: none;
 }
 
+.text-container > a > img {
+    height: 50px;
+    width: 50px;
+    padding: 20px 10px 0px 10px;
+    transition: transform 0.3s ease-in-out;
+}
 .text-container > a > img:hover {
     transform: scale(1.2) translateY(-6px);
-}
-
-@media (max-width: 768px) {
-    #home>section {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-        margin: 0 2rem;
-    }
-
-    .image-container {
-        height: 250px;
-        width: 250px;
-    }
-}
-
-.text-container>a>img {
-    height: 30px;
-    width: 30px;
-    padding: 20px 10px 0px 10px;
-    transition: transform 0.3s ease-in-out;   
 }
 
 .text-container > h3 {
