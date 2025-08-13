@@ -35,14 +35,14 @@ function Skill({ img_link, name, desc, page_link, github_link }) {
 
 
 function Projects() {
-  const slidingProjects = [...projects, ...projects];
+  const slidingProjects = [...projects];
 
   return (
     <section id="projects" className="projects-container">
       <h4>Explore My Recent</h4>
       <p>Projects</p>
-      <div className="projects-slider">
-        <div className="cards custom-scrollbar">
+      <div className="project-cards">
+        <div className="cards">
             {slidingProjects.map((card, index) => (
                 <Skill key={index} {...card} />
             ))}
@@ -59,29 +59,43 @@ const projects = [
     {
       name: "Calculator",
       img_link: calc,
-      page_link: "https://nikhilcharan-dev.github.io/Calculator/",
+      page_link: "https://weather-app.nixquest.live/",
       desc: "A simple web-based calculator application",
       github_link: "https://github.com/nikhilcharan-dev/nikhilcharan-dev.github.io",
     },
     {
       name: "Tic-Tac-Toe",
       img_link: ttt,
-      page_link: "https://nikhilcharan-dev.github.io/Tic-Tac-Toe/",
+      page_link: "https://tic-tac-toe.nixquest.live/",
       desc: "Compete against a computer in the classic game of Tic-Tac-Toe.",
-      github_link: "https://github.com/nikhilcharan-dev/nikhilcharan-dev.github.io",
-    },
-    {
-      name: "Likes Counter",
-      img_link: heart,
-      page_link: "https://nikhilcharan-dev.github.io/Double_CLick/",
-      desc: "A fun and interactive web-based project that spawns animated hearts whenever the user double clicks on the screen.",
       github_link: "https://github.com/nikhilcharan-dev/nikhilcharan-dev.github.io",
     },
     {
       name: "Weather App",
       img_link: weather,
-      page_link: "https://nikhilcharan-dev.github.io/weather-app/",
+      page_link: "https://weather-app.nixquest.live/",
       desc: "A fun and interactive web-based project that provides the current weather data of the location/city the user provides.",
       github_link: "https://github.com/nikhilcharan-dev/nikhilcharan-dev.github.io",
     },
-  ];
+    {
+        name: "Elite Coders",
+        img_link: heart,
+        page_line: "https://elite-coders.nixquest.live",
+        desc: "",
+        github_link: "https://github.com/nikhilcharan-dev/elite-coders",
+    },
+    {
+        name: "Last Line",
+        img_link: heart,
+        page_link: "https://lastline.life",
+        desc: "",
+        github_link: "https://github.com/nikhilcharan-dev/last-line",
+    },
+    {
+        name: "Keep me Alive",
+        img_link: heart,
+        page_link: "https://keepmealive.nixquest.live/",
+        desc: "",
+        github_link: "https://github.com/nikhilcharan-dev/keepmealive",
+    },
+];
